@@ -54,17 +54,51 @@
         height: 100px;
     }
     .reviews{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
+        justify-items: center;
+
     }
     .review{
         box-sizing: border-box;
         margin: 0 auto 50px;
-        width: 100%;
+        width: 95%;
     }
     .review__main{
         max-width: 100px;
     }
 
+    .workflow-all-steps{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .workflow-step{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+    .workflow-step__header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .workflow-step__dashed-line{
+        content: "";
+        position: absolute;
+        height: 40px;
+        width: 70px;
+        border-right: 2px dashed #1968fc;
+        border-top: none;
+        top: -40px;
+        left: 0;
+    }
+    .workflow-step:nth-child(3){
+        margin-top: 40px;
+    }
 }
+
