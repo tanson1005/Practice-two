@@ -12,7 +12,7 @@
 
 - Son Nguyen Tan
 
-- Email: `tanson01657715766@gmail.com>`
+- Email: `tanson01657715766@gmail.com`
 
 ## TECHNICAL
 
@@ -54,8 +54,8 @@
 
 ### ESIMATION PLAN
 
-- [link](<https://docs.google.com/document/d/14DLRLGO1A11rArRbcXxdPyBkUsh3ZKRuFuEcBZXjXKQ/edit>)
+- [Link](<https://docs.google.com/document/d/14DLRLGO1A11rArRbcXxdPyBkUsh3ZKRuFuEcBZXjXKQ/edit>)
 
 ### QUESTION LIST
 
-- [link](<https://docs.google.com/document/d/1kF41m4dSKHQznSJDgr00lQmMd3ezlTJ9acSHmxMZc1U/edit>)
+- [Link](<https://docs.google.com/document/d/1kF41m4dSKHQznSJDgr00lQmMd3ezlTJ9acSHmxMZc1U/edit>)
