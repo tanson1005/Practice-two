@@ -11,9 +11,6 @@
   }
 
 @media screen and (max-width: 768px){
-    .background-section{
-        padding-top: 40px;
-    }
     .title{
         margin-left: 0;
     }
@@ -32,7 +29,7 @@
         flex-direction: column;
     }
     .headline__content{
-        width: 60%;
+        width: 100%;
     }
     .headline__title{
         font-size: 40px;
@@ -87,12 +84,13 @@
         width: 50px;
         height: 43px;
     }
-    .review__about-autor{
+    .review__main-info{
+        display: flex;
         align-items: center;
-        justify-items: center;
     }
     .review__name{
         font-size: 14px;
+        margin-top: 0;
     }
     .review__position{
         font-size: 14px;
