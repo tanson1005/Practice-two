@@ -121,7 +121,6 @@ input[type="file"] {
 .headline {
   position: relative;
   display: flex;
-  align-items: center;
   width: 1120px;
   margin: 150px  auto 0 ;
   flex-direction: row;
@@ -172,6 +171,17 @@ input[type="file"] {
   margin-left: 0;
   right: 0;
   top: 50px;
+}
+
+.headline__mobile-info-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: block;
+  margin: 30px auto;
 }
 
 /* pagenav-end */

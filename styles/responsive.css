@@ -1,0 +1,70 @@
+@media screen and (min-width: 1025px) {
+    .hide-desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 357px) and (max-width: 1024px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 768px){
+    .background-section{
+        padding-top: 40px;
+    }
+    .logo{
+        margin-left: 60px;
+    }
+    .page-header__navigation{
+        display: none;
+    }
+    .page-header__upload-btn{
+        display: none;
+    }
+    .headline{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .headline__content{
+        width: 60%;
+        margin-left: 60px;
+    }
+    .headline__title{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .headline__img{
+        margin-left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .headline__mobile-info-text {
+        background-image: url(../images/headline-moblie/Please-Visit-Desktop-SiteSection-Background.png);
+        display: flex;
+        width: 100% ;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .review{
+        box-sizing: border-box;
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+    .review__main{
+        max-width: 100px;
+    }
+
+}
