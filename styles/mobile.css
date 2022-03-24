@@ -174,4 +174,8 @@
   .feature:nth-child(3){
     margin-top: 40px;
   }
+
+  .users{
+    width: 80%;
+  }
 }
