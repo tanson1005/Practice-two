@@ -149,4 +149,29 @@
     justify-items: center;
   }
 
+  .features{
+    width: 80%;
+  }
+
+  .features__list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .feature{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features__text{
+    width: 100%;
+  }
+
+  .feature:nth-child(3){
+    margin-top: 40px;
+  }
 }
