@@ -37,4 +37,28 @@
     right: 0;
     top: 50px;
   }
+
+  .review {
+    width: 540px;
+    padding: 40px;
+  }
+
+  .review__photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .review__name {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .review__picture {
+    width: 80px;
+    height: 65px;
+  }
+
+  .review__text {
+    font-size: 16px;
+  }
 }
