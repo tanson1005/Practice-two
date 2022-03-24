@@ -59,7 +59,6 @@
 
   .reviews{
     width: 100%;
-    display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
@@ -86,7 +85,6 @@
   }
 
   .review__main-info{
-    display: flex;
     align-items: center;
   }
 
@@ -101,6 +99,54 @@
 
   .review__text{
     font-size: 14px;
+  }
+
+  .workflow{
+    width: 80%;
+  }
+
+  .workflow-all-steps{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .workflow-step{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workflow-step__header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .workflow-step__dashed-line{
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    border-right: 2px dashed var(--stomping-blue);
+    border-top: none;
+    top: -40px;
+    left: 0;
+  }
+
+  .workflow-step:nth-child(3){
+    margin-top: 40px;
+  }
+
+  .workflow-all-steps{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
   }
 
 }
