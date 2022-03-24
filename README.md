@@ -16,9 +16,9 @@
 
 ## TECHNICAL
 
-- Costhtml-include
+- Posthtml-include
 - Commitlint
-- 7-1 pattern structure
+- 7-1 patterm n structure
 - Css variable
 
 ## TARGET
@@ -32,7 +32,7 @@
 - Estimated time: 5 days
 - Timeline details:
   - Day 1: Prepare documents on Estimation plan & Question list
-  - Day 2: Implement Content "Headline" & "Reviews" & "Workflow"
+ ư2q1  - Day 2: Implement Content "Headline" & "Reviews" & "Workflow"
   - Day 3: Implement Content "Features" & "Users" & "Purposes" & "Conslutation"
   - Day 4: Implement Content "Stories" & "Footer"
   - Day 5: Review with mentor and fix errors
