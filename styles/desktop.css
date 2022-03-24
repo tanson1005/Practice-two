@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1024px) {
+  .page-header {
+    width: 1120px;
+  }
+
+  .page-header__navigation {
+    width: 540px;
+  }
+
+  .page-header__upload-btn {
+    width: 180px;
+    padding: 0 30px;
+  }
+
+  .nav-list__item {
+    padding: 0 30px;
+  }
+
+  .headline {
+    display: flex;
+    flex-direction: row;
+    width: 1120px;
+  }
+
+  .headline__content {
+    width: 600px;
+  }
+
+  .headline__upload-btn {
+    padding: 14px 64px;
+  }
+
+  .headline__img {
+    width: 599px;
+    height: 502px;
+    margin-left: 0;
+    right: 0;
+    top: 50px;
+  }
+}
