@@ -61,4 +61,34 @@
   .review__text {
     font-size: 16px;
   }
+
+  .workflow-all-steps {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .workflow-step {
+    width: 320px;
+  }
+
+  /* Split layout */
+  .workflow-step:first-child {
+    margin-top: 0;
+  }
+
+  .workflow-step:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .workflow-step:nth-child(3) {
+    margin-top: 80px;
+  }
+
+  .workflow-step__dashed-line{
+    position: absolute;
+    height: 1px;
+    width: 70px;
+    top: 70px;
+    left: -75px;
+  }
 }
