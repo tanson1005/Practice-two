@@ -119,5 +119,29 @@
     justify-content: space-between;
   }
 
+  .consultation{
+    height: 465px;
+  }
+
+  .consultation__text {
+    width: 1120px;
+    margin: 0 auto;
+  }
+
+  .consultation__title {
+    width: 1000px;
+  }
+
+  .consultation__title-line{
+    margin-left: -40px;
+  }
+
+  .consultation__description{
+    width: 629px;
+  }
+
+  .consultation__button{
+    margin-top: 40px;
+  }
 
 }
