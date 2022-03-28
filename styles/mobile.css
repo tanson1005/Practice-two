@@ -195,7 +195,7 @@
 
   .purposes__row{
     flex-direction: column;
-  }
+  } 
 
   .purpose{
     width: 100%;
@@ -225,5 +225,18 @@
 
   .consultation__img{
     display: none;
+  }
+
+  .stories{
+    width: 80%;
+  }
+
+  .story-card{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .story-cards{
+    flex-direction: column;
   }
 }
