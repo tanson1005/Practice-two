@@ -201,4 +201,29 @@
     width: 100%;
   }
 
+  .consultation{
+    width: 100%;
+    height: auto;
+  }
+  .consultation__text{
+    width: 80%;
+    margin: auto;
+  }
+  .consultation__title{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .consultation__title-line{
+    margin-left: 0;
+  }
+  .consultation__description{
+    width: 100%;
+  }
+  .consultation__button{
+    margin: 0 0 40px 0 ;
+  }
+
+  .consultation__img{
+    display: none;
+  }
 }
