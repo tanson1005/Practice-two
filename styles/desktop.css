@@ -144,4 +144,11 @@
     margin-top: 40px;
   }
 
+  .story-cards {
+    justify-content: space-between;
+  }
+
+  .story-card {
+    width: 480px;
+  }
 }
