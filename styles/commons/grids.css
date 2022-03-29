@@ -1,13 +1,25 @@
 @media only screen and (min-width: 1024px) {
+    input[type="file"] {
+      display: none;
+    }
+
+    .page {
+      max-width: 1400px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
     .container {
       max-width: 1120px;
+      margin: 0 auto;
     }
   }
 
   @media only screen and (max-width: 1024px) {
-    .container {
-      padding-left: 20px;
-      padding-right: 20px;
+    .background-section {
+      padding-left: 50px;
+      padding-right: 50px;
     }
   }
 

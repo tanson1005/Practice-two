@@ -1,6 +1,10 @@
 @media only screen and (max-width: 768px) {
-  /* header code for mobile */
-  .main-header {
-    max-width: 768px;
+  .page-header__navigation {
+    display: none;
   }
+
+  .page-header__upload-btn {
+    display: none;
+  }
+
 }
