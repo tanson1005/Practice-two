@@ -1,3 +1,3 @@
-@import "/styles/layouts/header.css";
-@import "/styles/layouts/header.css";
-@import "/styles/layouts/header.css";
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
