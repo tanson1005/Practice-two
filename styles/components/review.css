@@ -1,0 +1,31 @@
+.review {
+  padding: 40px;
+  background-color: white;
+}
+
+.review-owner {
+
+}
+
+.review-avatar {
+  width: 100px;
+  height: 100px;
+
+  margin-right: 10px;
+}
+
+.review-content {
+
+}
+
+.review-name {
+  font-size: 18px;
+}
+
+.review-position {
+  font-size: 14px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  //
+} */
