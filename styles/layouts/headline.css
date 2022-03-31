@@ -1,0 +1,20 @@
+.headline {
+  margin: 150px auto 0 ;
+}
+
+.headline__content {
+  margin: 0 0 auto;
+}
+
+.headline__description {
+  margin: 40px 0;
+}
+
+.headline__upload-btn {
+  padding: 14px 64px;
+  margin-top: 40px;
+}
+
+.headline__img {
+  top: 50px;
+}
