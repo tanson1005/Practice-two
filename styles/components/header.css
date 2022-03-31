@@ -1,0 +1,52 @@
+.page-header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 0;
+}
+
+.page-header__navigation {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page-header__upload-btn {
+  display: inline-block;
+  padding: 0 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-transform: uppercase;
+  border: none;
+  color: var(--white);
+  margin-left: 20px;
+  text-shadow: var(--text);
+  background: var(--stomping-blue);
+  box-shadow: var(--box);
+}
+
+.page-header__upload-btn:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+.page-header__navigation{
+  display: none;
+}
+
+.page-header__upload-btn{
+  display: none;
+}
+
+}
+
+
