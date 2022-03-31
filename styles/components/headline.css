@@ -1,0 +1,127 @@
+.headline {
+  position: relative;
+  display: flex;
+  width: 1120px;
+  margin: 150px  auto 0 ;
+  flex-direction: row;
+}
+
+.headline__content {
+  flex-shrink: 0;
+  width: 600px;
+  margin: 0 0 auto;
+}
+
+.headline__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+
+.headline__description {
+  font-size: 20px;
+  line-height: 40px;
+  margin: 40px 0;
+}
+
+.headline__upload-btn {
+  padding: 14px 64px;
+  background: var(--stomping-blue);
+  box-shadow: var(--box);
+  border: none;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-shadow: var(--text);
+  margin-top: 40px;
+}
+
+.headline__upload-btn:hover {
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.headline__img {
+  position: absolute;
+  width: 599px;
+  height: 502px;
+  margin-left: 0;
+  right: 0;
+  top: 50px;
+}
+
+.headline__mobile-info-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  display: block;
+  margin: 30px auto;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+.headline {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline__img {
+  margin-left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.headline {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headline__content {
+  width: 100%;
+}
+
+.headline__title {
+  font-size: 40px;
+}
+
+.headline__img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.headline__upload-btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 60px;
+  font-size: 10px;
+  line-height: 45px;
+}
+
+.headline-banner {
+  background-image: url(/images/mobiles/headlines-moblie/Please-Visit-Desktop-SiteSection-Background.png);
+  display: flex;
+  width: 100% ;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+}
+
+
