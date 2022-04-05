@@ -1,0 +1,17 @@
+.review {
+  padding: 20px;
+}
+
+.review-avatar {
+  margin-right: 10px;
+}
+
+.review-content {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .reviews {
+    margin: 160px auto;
+  }
+}

@@ -62,7 +62,6 @@
   .headline {
     display: flex;
     flex-direction: row;
-    width: 1124px;
   }
 
   .headline__content {
@@ -72,22 +71,16 @@
   .headline__img {
     width: 599px;
     height: 502px;
-    margin-left: 0;
-    right: 0;
-    }
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .headline {
-    width: 90%;
     display: flex;
     flex-direction: column;
-    margin: 150px 0 ;
   }
 
   .headline__img {
-    margin-left: 0;
-    right: 0;
     width: 100%;
     height: 100%;
     position: relative;
@@ -96,7 +89,6 @@
 
 @media only screen and (max-width: 768px) {
   .headline {
-    width: 85%;
     display: flex;
     flex-direction: column;
   }

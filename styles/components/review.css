@@ -1,21 +1,32 @@
 .review {
-  padding: 40px;
-  background-color: white;
+  background: var(--white);
+  filter: drop-shadow(var(--drop));
 }
 
 .review-owner {
+  display: flex;
+  justify-content: space-between;
+}
+.review-wrap {
+  display: flex;
+}
 
+.review-icon {
+  max-width: 100%;
+  height: 100%;
 }
 
 .review-avatar {
   width: 100px;
   height: 100px;
-
-  margin-right: 10px;
 }
 
+.review-text {
+  align-self: center;
+}
 .review-content {
-
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .review-name {
@@ -25,7 +36,24 @@
 .review-position {
   font-size: 14px;
 }
+/* mobile */
+@media only screen and (max-width: 768px) {
+}
 
-/* @media only screen and (max-width: 768px) {
-  //
-} */
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .headline-banner {
+    display: none ;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+  .review-clients {
+    display: flex;
+    justify-content:space-between;
+  }
+  .review-content {
+    width: 500px;
+  }
+}

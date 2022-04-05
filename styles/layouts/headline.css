@@ -17,4 +17,6 @@
 
 .headline__img {
   top: 50px;
+  margin-left: 0;
+  right: 0;
 }
