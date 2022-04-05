@@ -1,0 +1,70 @@
+.workflow {
+  margin-top: 120px;
+}
+
+.workflow-step::before {
+  width: 70px;
+  left: -75px;
+  top: 70px;
+}
+
+.workflow-step__title {
+  margin-bottom: 10px;
+}
+
+.workflow-step__text {
+  margin: 0;
+  padding: 0;
+}
+
+.workflow-step__decoration {
+  bottom: -5px;
+  right: -5px;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  .workflow-step {
+    margin-bottom: 50px;
+    padding: 40px;
+  }
+
+  .workflow-step::after {
+    height: 50px;
+    top: 210px;
+    left: 70px;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .workflow-step {
+    padding: 40px;
+    margin-bottom: 50px;
+  }
+
+  .workflow-step::after {
+    top: 180px;
+    left: 70px;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1024px) {
+  .workflow-step {
+    padding: 40px;
+  }
+
+  /* Split layout */
+  .workflow-step:first-child {
+    margin-top: 0;
+  }
+
+  .workflow-step:nth-child(2) {
+    margin-top: 40px;
+  }
+
+  .workflow-step:nth-child(3) {
+    margin-top: 80px;
+  }
+}
