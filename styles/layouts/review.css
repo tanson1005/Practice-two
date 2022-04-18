@@ -28,4 +28,7 @@
   .reviews {
     margin: 160px auto;
   }
+  .review:first-child {
+    margin-right: 40px;
+  }
 }
