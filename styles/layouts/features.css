@@ -1,0 +1,5 @@
+.feature::before {
+  width: 70px;
+  left: -75px;
+  top: 70px;
+}
