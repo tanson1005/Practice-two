@@ -1,5 +1,5 @@
 .headline {
-  margin: 150px auto 0 ;
+  margin: 80px auto 0 ;
 }
 
 .headline__content {
@@ -7,12 +7,12 @@
 }
 
 .headline__description {
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .headline__upload-btn {
   padding: 14px 64px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .headline__img {
@@ -20,3 +20,4 @@
   margin-left: 0;
   right: 0;
 }
+
