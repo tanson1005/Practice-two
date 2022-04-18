@@ -1,0 +1,22 @@
+.users {
+  margin-top: 120px;
+}
+
+.users .title-block {
+  margin-bottom: 50px;
+}
+
+.user {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.user__text {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.user__text {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
