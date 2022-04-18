@@ -43,8 +43,8 @@
 
 ## GETTING STARTED
 
-- Clone repository: `git clone git@github.com:tanson1005/Practice-one.git`
-- Checkout branch: `git checkout feature/practice-one`
+- Clone repository: `git clone git@github.com:tanson1005/Practice-two.git`
+- Checkout branch: `git checkout feature/practice-two`
 - Run with python server
   - With Python version 2: `python -m SimpleHTTPServer 8888`
   - With Python version 3: `python3 -m http.server 8888`
