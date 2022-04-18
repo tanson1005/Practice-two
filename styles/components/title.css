@@ -1,5 +1,5 @@
 .title {
-  font-size: 30px;
+  font-size: 29px;
   line-height: 60px;
   text-transform: uppercase;
   font-weight: 400;
@@ -15,10 +15,4 @@
   top: 70px;
   border-bottom: solid 2px var(--stomping-blue);
   box-shadow: 0px 2px 0px var(--light-blues);
-}
-
-@media only screen and (max-width: 768px) {
-  .title::before {
-    top: 120px;
-  }
 }
