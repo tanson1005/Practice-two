@@ -1,4 +1,5 @@
 .review {
+  flex: 1;
   background: var(--white);
   filter: drop-shadow(var(--drop));
 }
@@ -31,11 +32,17 @@
 
 .review-name {
   font-size: 18px;
+  line-height: 30px;
+}
+
+.review-position {
+  line-height: 30px;
 }
 
 .review-position {
   font-size: 14px;
 }
+
 /* mobile */
 @media only screen and (max-width: 768px) {
 }
@@ -52,8 +59,5 @@
   .review-clients {
     display: flex;
     justify-content:space-between;
-  }
-  .review-content {
-    width: 500px;
   }
 }

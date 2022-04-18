@@ -86,4 +86,8 @@
   .page-header__upload-btn {
     display: none;
   }
+  .navigation-icon:hover {
+    cursor: pointer;
+    opacity: 0.3;
+  }
 }

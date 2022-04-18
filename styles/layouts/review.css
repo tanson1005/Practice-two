@@ -1,5 +1,6 @@
 .review {
   padding: 20px;
+  margin-bottom: 50px;
 }
 
 .review-avatar {
@@ -9,9 +10,25 @@
 .review-content {
   margin-top: 40px;
 }
+@media only screen and (max-width: 768px) {
+  .review-clients {
+    margin-top: 120px;
+  }
 
+  .review-avatar {
+    width: 70px;
+    height: 70px;
+  }
+  .review-icon {
+    width: 50px;
+    height: 40px;
+  }
+}
 @media only screen and (min-width: 1024px) {
   .reviews {
     margin: 160px auto;
+  }
+  .review:first-child {
+    margin-right: 40px;
   }
 }
