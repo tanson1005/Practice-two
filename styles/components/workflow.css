@@ -92,7 +92,6 @@
   .workflow-step::after {
     content: "";
     position: absolute;
-    height: 50px;
     border-left: dashed 2px var(--stomping-blue);
   }
 
