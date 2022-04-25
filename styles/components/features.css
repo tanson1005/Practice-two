@@ -67,6 +67,14 @@
   display: none;
 }
 
+.feature:first-child {
+  z-index: 3;
+}
+
+.feature:nth-child(2) {
+  z-index: 2;
+}
+
 @media only screen and (max-width: 768px) {
   .features__list {
     flex-wrap: wrap;
