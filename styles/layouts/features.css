@@ -25,7 +25,7 @@
 
   .feature::after {
     height: 60px;
-    top: 290px;
+    bottom: -60px;
     left: 70px;
   }
 
@@ -41,7 +41,7 @@
 
   .feature::after {
     height: 60px;
-    top: 290px;
+    bottom: -60px;
     left: 70px;
   }
 

@@ -32,7 +32,7 @@
 
   .workflow-step::after {
     height: 50px;
-    top: 210px;
+    bottom: -50px;
     left: 70px;
   }
 }
