@@ -111,6 +111,13 @@
     width: 320px;
     height: 220px;
     box-sizing: border-box;
-    padding: 40px;
+  }
+
+  .workflow-step:first-child {
+    z-index: 3;
+  }
+
+  .workflow-step:nth-child(2) {
+    z-index: 1;
   }
 }
