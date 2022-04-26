@@ -1,0 +1,41 @@
+.consultation {
+  margin-top: 120px;
+}
+
+.consultation__title {
+  margin: 0;
+}
+
+.consultation__title-line {
+  margin-top: 10px;
+}
+
+.consultation__description {
+  margin: 40px 0;
+}
+
+.consultation__button {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .consultation__text {
+    padding: 0 20px;
+  }
+
+  .consultation__button {
+    margin: 0 0 40px 0 ;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .consultation__text {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .consultation__text {
+    margin: 0 auto;
+  }
+}
