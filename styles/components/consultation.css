@@ -11,6 +11,7 @@
   position: relative;
   color: var(--white);
   font-weight: 700;
+  font-family: "Bold";
   font-size: 30px;
   line-height: 60px;
   text-transform: uppercase;
@@ -33,10 +34,11 @@
 }
 
 .consultation__description {
+  font-weight: 400;
+  font-family: "Regular";
   font-size: 20px;
   line-height: 40px;
   color: var(--white);
-  margin: 40px 0;
 }
 
 .consultation__button {
