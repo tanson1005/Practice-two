@@ -3,7 +3,7 @@
   position: relative;
   align-items: center;
   background: var(--stomping-blue);
-  height: 465px;
+  height: 450px;
 }
 
 .consultation__title {
@@ -30,13 +30,6 @@
 .consultation .title-block {
   display: flex;
   flex-direction: column;
-}
-
-.consultation__title-line {
-  background: var(--white);
-  box-shadow: 0px 2px 0px var(--light-blue);
-  width: 80px;
-  height: 2px;
 }
 
 .consultation__description {
@@ -80,7 +73,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .consultation__title {
-    width: 100%;
+    min-width: 100%;
     box-sizing: border-box;
   }
 
@@ -102,6 +95,6 @@
   }
 
   .consultation__description {
-    width: 640px;
+    min-width: 640px;
   }
 }
