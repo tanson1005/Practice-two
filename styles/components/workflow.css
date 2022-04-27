@@ -27,14 +27,16 @@
 
 /* Letter */
 .workflow-step__subtitle {
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "SemiBold";
   font-size: 12px;
   line-height: 20px;
   text-transform: uppercase;
 }
 
 .workflow-step__title {
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Bold";
   font-size: 18px;
   line-height: 40px;
   text-transform: uppercase;
@@ -48,6 +50,8 @@
 }
 
 .workflow-step__text {
+  font-weight: 400;
+  font-family: "Regular";
   font-size: 16px;
   line-height: 30px;
 }

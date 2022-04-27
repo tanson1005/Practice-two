@@ -8,12 +8,15 @@
 
 .headline__title {
   font-weight: 600;
+  font-family: "SemiBold";
   font-size: 40px;
   line-height: 60px;
   letter-spacing: 1px;
 }
 
 .headline__description {
+  font-weight: 400;
+  font-family: "Regular";
   font-size: 20px;
   line-height: 40px;
 }
@@ -25,6 +28,7 @@
   text-transform: uppercase;
   color: var(--white);
   font-weight: 700;
+  font-family: "Bold";
   font-size: 14px;
   line-height: 20px;
   text-shadow: var(--text);
