@@ -1,0 +1,102 @@
+.consultation {
+  display: flex;
+  position: relative;
+  align-items: center;
+  background: var(--stomping-blue);
+  min-height: 450px;
+}
+
+.consultation__title {
+  display: block;
+  position: relative;
+  color: var(--white);
+  font-weight: 700;
+  font-family: "Bold";
+  font-size: 30px;
+  line-height: 60px;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.consultation__title::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  left: 0;
+  bottom: 0;
+  border-bottom: solid 2px var(--stomping-blue);
+  box-shadow: 0px 2px 0px var(--white);
+}
+
+.consultation .title-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.consultation__description {
+  font-weight: 400;
+  font-family: "Regular";
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--white);
+}
+
+.consultation__button {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 320px;
+  color: var(--stomping-blue);
+  border: none;
+  background: var(--white);
+}
+
+.consultation__button:hover {
+  cursor: pointer !important;
+  opacity: 0.3;
+}
+
+@media only screen and (max-width: 768px) {
+  .consultation__title {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .consultation__description {
+    width: 100%;
+  }
+
+  .consultation__img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .consultation__title {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .consultation__img {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .consultation__text {
+    width: 1120px;
+    z-index: 1;
+  }
+
+  .consultation__img {
+    position: absolute;
+    top: 20px;
+    right: 1px;
+  }
+
+  .consultation__description {
+    min-width: 640px;
+  }
+}
