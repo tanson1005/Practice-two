@@ -1,0 +1,55 @@
+.story-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-card {
+  display: flex;
+}
+
+.story-card__img {
+  width: 40px;
+  height: 33px;
+}
+
+
+.story-card__title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+  color: var(--black);
+}
+
+.story-card__description {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--black);
+}
+
+@media only screen and (max-width: 768px) {
+  .story-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .story-cards {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .story-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .story-cards {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .story-card {
+    width: calc((100% - 150px) / 2);
+  }
+}
