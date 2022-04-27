@@ -14,7 +14,8 @@
 
 .page-header__upload-btn {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Bold";
   font-size: 14px;
   line-height: 50px;
   padding: 0 30px;
@@ -43,6 +44,8 @@
 }
 
 .nav-list__item {
+  font-weight: 600;
+  font-family: "SemiBold";
   font-size: 14px;
   line-height: 50px;
   color: var(--black);

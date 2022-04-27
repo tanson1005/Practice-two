@@ -3,3 +3,18 @@
   src:url(/fonts/Mulish/Mulish-VariableFont_wght.ttf);
   font-family: Mulish;
 }
+
+@font-face {
+  src:url(/fonts/Mulish/static/Mulish-Bold.ttf);
+  font-family: Bold;
+}
+
+@font-face {
+  src:url(/fonts/Mulish/static/Mulish-SemiBold.ttf);
+  font-family: SemiBold;
+}
+
+@font-face {
+  src:url(/fonts/Mulish/static/Mulish-Regular.ttf);
+  font-family: Regular;
+}

@@ -15,12 +15,15 @@
 
 .story-card__title {
   font-weight: 600;
+  font-family: "SemiBold";
   font-size: 20px;
   line-height: 40px;
   color: var(--black);
 }
 
 .story-card__description {
+  font-weight: 400;
+  font-family: "Regular";
   font-size: 16px;
   line-height: 30px;
   color: var(--black);
